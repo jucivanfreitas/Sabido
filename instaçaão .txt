@@ -34,8 +34,17 @@ Para sistemas Linux:
 sudo apt install python3-pipCOPIAR CÓDIGO
 3 - Ao decorrer do curso iremos utilizar um ambiente virtualizado chamado virtualenv para construir os projetos da aula. Você pode instalar a virtualenv com o seguinte comando:
 
-pip install virtualenv
-COPIAR CÓDIGO
+>> pip install virtualenv 
+
+>>> venv_sabido/Scripts/Activate  ativar venv no Windows
+
+>>> pip install django
+
+Sempre que houver instalação de pacotes atualizar com o :
+>>> pip freeze > requirements.txt
+
+iniciando projeto no django:
+>>> django-admin startproject setup .
  
 
 4 - Por último, selecione esse link para baixar um template construído em HTML e CSS que será o front-end do nosso projeto ou entre em sua página no Github.
